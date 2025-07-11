@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remote pointing to your GitHub forks -->
+    <remote name="github" fetch="https://github.com/A-cord" />
+
+    <!-- Default revision and sync settings -->
+    <default revision="lineage-18.1" remote="github" sync-j="4" />
+
+    <!-- Device tree -->
+    <project name="android_device_google_sunfish" path="device/google/sunfish" />
+
+    <!-- Vendor tree -->
+    <project name="vendor_google_sunfish" path="vendor/google/sunfish" />
+
+    <!-- Kernel tree -->
+    <project name="android_kernel_google_sunfish" path="kernel/google/sunfish" />
+
+</manifest>
